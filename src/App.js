@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Banner from './Pages/Home/Banner/Banner';
+import Home from './Pages/Home/Home';
+
 
 
 
@@ -9,7 +10,10 @@ function App() {
 
   return (
     <div>
-      <Banner></Banner>
+
+      <Home></Home>
+
+
     </div>
   );
 }
