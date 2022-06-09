@@ -1,8 +1,11 @@
 
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 
 const Banner = () => {
+
+    const navigate = useNavigate()
 
     return (
         <div className='text-center'>
@@ -17,7 +20,9 @@ const Banner = () => {
                     <div className="mx-12">
                         <h1 class="text-4xl font-bold ">Hello I'm Kazi Tayeful Islam</h1>
                         <p class="py-6">Hello I'm a MERN Stack Developer.</p>
-                        <button class="btn btn-primary">Donwload Resume</button>
+
+                        <button class="btn btn-primary"><a href="https://drive.google.com/file/d/17APFv9uAURTXDGnfXRMnIldXOMNMd2fZ/view">GET Resume</a></button>
+
                     </div>
                 </div>
             </div>

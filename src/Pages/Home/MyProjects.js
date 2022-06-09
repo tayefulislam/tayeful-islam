@@ -16,7 +16,7 @@ const MyProjects = () => {
                         <h2 class="card-title">Focus Tools</h2>
                         <p>Focus Tools is a manufacturer tool website. Users can sign up and social login. They can make orders and payments. Cancel order if is't pay yet. If paid they can't cancel the order.</p>
                         <div class="card-actions">
-                            <button class="btn">Detail</button>
+                            <button class="btn">Details</button>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ const MyProjects = () => {
                         <h2 class="card-title">Square Inventory</h2>
                         <p>Square Inventory warehouse management or inventory management web application.You can easily handle your warehouse by it. You can track,add ,update,delete your item.</p>
                         <div class="card-actions">
-                            <button class="btn">Detail</button>
+                            <button class="btn">Details</button>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const MyProjects = () => {
                         <h2 class="card-title">Doctors Portal</h2>
                         <p>Doctors Portal is an Appointment booking website, Anyone can book a doctor's appointment.</p>
                         <div class="card-actions">
-                            <button class="btn">Detail</button>
+                            <button class="btn">Details</button>
                         </div>
                     </div>
                 </div>
