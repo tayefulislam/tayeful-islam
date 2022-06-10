@@ -1,0 +1,153 @@
+[
+    {
+        "nameId": "focus-tools",
+        "name": "Focus Tools",
+        "summary": "Focus Tools is a manufacturer tool website. Users can sign up and social login. They can make orders and payments. Cancel order if is't pay yet. If paid they can't cancel the order.",
+        "details": [
+            {
+                "id": 1,
+                "point": "implement JWT for secure data"
+            },
+            {
+                "id": 2,
+                "point": "In Dashboard Section it will show side bar Manu based on Your Role (admin /user)"
+            },
+            {
+                "id": 3,
+                "point": "Use stripe for payment . you pay using your card"
+            },
+            {
+                "id": 4,
+                "point": "Business Summary will show you data by calculating realtime data"
+            },
+            {
+                "id": 5,
+                "point": "You can write a blog and it will show you in Blogs section"
+            },
+            {
+                "id": 6,
+                "point": "you rate by click start icon in review section"
+            },
+            {
+                "id": 7,
+                "point": "Admin can change the role of Admin and user"
+            }
+        ],
+        "image": [
+            {
+                "png": "https://i.ibb.co/Lv98drc/focus-tools.png"
+            },
+            {
+                "png": "https://i.ibb.co/pvwZRZK/focus-tools-2.png"
+            },
+            {
+                "png": "https://i.ibb.co/xq7NwvR/focus-tools-3.png"
+            }
+        ],
+        "liveLink": "https://focus-tools.web.app/",
+        "serverLink": "https://github.com/tayefulislam/focus-tools-server",
+        "clientSide": "https://github.com/tayefulislam/focus-tools"
+    },
+    {
+        "nameId": "doctors-portal",
+        "name": "Doctors Portal",
+        "summary": "Doctors Portal is an Appointment booking website, Anyone can book a doctor's appointment.",
+        "details": [
+            {
+                "id": 1,
+                "point": "User can sign up email address and social login."
+            },
+            {
+                "id": 2,
+                "point": "In the appointment section, the appointment result will show as per the date & time available slots. Users can make payments. Payment info will update on the user and admin sides."
+            },
+            {
+                "id": 3,
+                "point": "Doctors Portal make with React Router, Tailwind, React Hook Form, React Query Hook, Node.js, Express.js, MongoDB, Stripe Payment, JWT etc."
+            },
+            {
+                "id": 4,
+                "point": "Business Summary will show you data by calculating realtime data"
+            },
+            {
+                "id": 5,
+                "point": "If Payment successful payment info will avaible on dashboard"
+            },
+            {
+                "id": 6,
+                "point": "User Can Meassge doctor. [Next Update]"
+            },
+            {
+                "id": 7,
+                "point": "Dynamic blog section will available. [Next Update]"
+            }
+        ],
+        "image": [
+            {
+                "png": "https://i.ibb.co/X5Vfsj2/doctors-portal.png"
+            },
+            {
+                "png": "https://i.ibb.co/b2mNhfW/doctors-portal-2.png"
+            },
+            {
+                "png": "https://i.ibb.co/r4wbBPS/doctors-portal-3.png"
+            }
+        ],
+        "liveLink": "https://doctors-portal-tayeful.netlify.app/",
+        "serverLink": "https://github.com/tayefulislam/doctors-portal-server1",
+        "clientSide": "https://github.com/tayefulislam/doctors-portal-client"
+    },
+    {
+        "nameId": "square-inventory",
+        "name": "Square Inventory",
+        "summary": "Square Inventory warehouse management or inventory management web application.You can easily handle your warehouse by it. You can track,add ,update,delete your item.",
+        "details": [
+            {
+                "id": 1,
+                "point": "You Can Track Your Item By Track Id (Ex: 39958 )"
+            },
+            {
+                "id": 2,
+                "point": "From Footer Upper Section You Can see the number of total items , how many In Stock and Total Delivered ."
+            },
+            {
+                "id": 3,
+                "point": "If You Click Delivered it reduce by 1 and add increase sold number"
+            },
+            {
+                "id": 4,
+                "point": "If Quantity 0 , Button will be 'Stock out' and red color."
+            },
+            {
+                "id": 5,
+                "point": "You Can Update Inventory details in the future ."
+            },
+            {
+                "id": 6,
+                "point": "If Data is loading it will you spinner"
+            },
+            {
+                "id": 7,
+                "point": "You Can add quantity by clicking the ReStock Button ."
+            },
+            {
+                "id": 8,
+                "point": "It can create Jwt access token when user will login ,register (aslo social login) and give result based on jwt"
+            }
+        ],
+        "image": [
+            {
+                "png": "https://i.ibb.co/hZGr6bv/square-inventory.png"
+            },
+            {
+                "png": "https://i.ibb.co/ypm1qKd/square-inventory-2.png"
+            },
+            {
+                "png": "https://i.ibb.co/PM2Xrf3/square-inventory-3.png"
+            }
+        ],
+        "liveLink": "https://square-inventory-26243.firebaseapp.com/",
+        "serverLink": "https://github.com/tayefulislam/square-inventory-server",
+        "clientSide": "https://github.com/tayefulislam/square-inventory"
+    }
+]

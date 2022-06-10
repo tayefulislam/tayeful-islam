@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React from 'react';
 
 const ContactMe = () => {
@@ -17,6 +18,12 @@ const ContactMe = () => {
         }
 
         console.log(mail)
+        const url = `https://tayefulapi1.priyopathshala.com/sendmail`
+        axios.post(url, mail)
+            .then(function (respones) {
+                console.log(respones)
+
+            })
 
 
     }
@@ -31,28 +38,28 @@ const ContactMe = () => {
                 <form onSubmit={handleSubmit} >
 
 
-                    <div class="form-control w-64 md:w-96 lg:w-96 max-w-xs">
-                        <label class="label">
-                            <span class="label-text">Your Name</span>
+                    <div className="form-control w-64 md:w-96 lg:w-96 max-w-xs">
+                        <label className="label">
+                            <span className="label-text">Your Name</span>
 
                         </label>
-                        <input type="text" placeholder="Type Your Name" class="input input-bordered w-full max-w-xs" />
+                        <input type="text" name='name' placeholder="Type Your Name" className="input input-bordered w-full max-w-xs" />
 
                     </div>
-                    <div class="form-control w-full max-w-xs">
-                        <label class="label">
-                            <span class="label-text">Email Address</span>
+                    <div className="form-control w-full max-w-xs">
+                        <label className="label">
+                            <span className="label-text">Email Address</span>
 
                         </label>
-                        <input type="text" placeholder="Type Email Address" class="input input-bordered w-full max-w-xs" />
+                        <input type="email" name='email' placeholder="Type Email Address" className="input input-bordered w-full max-w-xs" />
 
                     </div>
-                    <div class="form-control w-full max-w-xs">
-                        <label class="label">
-                            <span class="label-text">Your Message</span>
+                    <div className="form-control w-full max-w-xs">
+                        <label className="label">
+                            <span className="label-text">Your Message</span>
 
                         </label>
-                        <textarea type="text" placeholder="Type Your Message" class="input input-bordered w-full max-w-xs" />
+                        <textarea type="text" name='message' placeholder="Type Your Message" className="input input-bordered w-full max-w-xs" />
 
                     </div>
 
