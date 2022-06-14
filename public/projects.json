@@ -44,6 +44,7 @@
                 "png": "https://i.ibb.co/xq7NwvR/focus-tools-3.png"
             }
         ],
+        "tools": "Focus Tools make with React Router, React Hook Form, React Query Hook, React CountUp, Node.js, Express.js, MongoDB, Stripe Payment, JWT etc.",
         "liveLink": "https://focus-tools.web.app/",
         "serverLink": "https://github.com/tayefulislam/focus-tools-server",
         "clientSide": "https://github.com/tayefulislam/focus-tools"
@@ -93,6 +94,7 @@
                 "png": "https://i.ibb.co/r4wbBPS/doctors-portal-3.png"
             }
         ],
+        "tools": "Doctors Portal  make with React Router, Tailwind, React Hook Form, React Query Hook, Node.js, Express.js, MongoDB, Stripe Payment, JWT etc.",
         "liveLink": "https://doctors-portal-tayeful.netlify.app/",
         "serverLink": "https://github.com/tayefulislam/doctors-portal-server1",
         "clientSide": "https://github.com/tayefulislam/doctors-portal-client"
@@ -146,6 +148,7 @@
                 "png": "https://i.ibb.co/PM2Xrf3/square-inventory-3.png"
             }
         ],
+        "tools": "Square Inventory  make with React Router, React Bootstrap, React CountUp, React Hook Form, React Query Hook, Node.js, Express.js, MongoDB, Stripe Payment, JWT etc.",
         "liveLink": "https://square-inventory-26243.firebaseapp.com/",
         "serverLink": "https://github.com/tayefulislam/square-inventory-server",
         "clientSide": "https://github.com/tayefulislam/square-inventory"

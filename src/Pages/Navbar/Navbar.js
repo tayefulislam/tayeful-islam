@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
 
     const manu = <>
+
+        <li className='text-lg font-bold'><Link to='/projects'>Projects</Link></li>
         <li className='text-lg font-bold'><Link to='/blogs'>Blogs</Link></li>
+        <li className='text-lg font-bold'><Link to='/contact-me'>Contact Me</Link></li>
+
     </>
 
 

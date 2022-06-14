@@ -49,6 +49,14 @@ const ProjectDetail = () => {
 
                         <p className=''>{project?.summary}</p>
                     </div>
+                    <div><h1 className='text-xl font-semibold'>
+                        Tools & Technology
+                    </h1>
+
+                        <p className=''>{project?.tools}</p>
+                    </div>
+
+
 
                     <div>
                         <h1 className='text-xl font-semibold'>Details</h1>

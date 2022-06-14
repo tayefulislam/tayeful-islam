@@ -19,6 +19,8 @@ const MyProjects = () => {
     return (
         <div>
 
+            <h1 className='text-2xl text-center font-bold'>My Recents Full Stack Projects</h1>
+
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 mx-5'
             >
 
